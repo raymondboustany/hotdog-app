@@ -1,0 +1,53 @@
+.d-flex{
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.link_button{
+    color: black;
+    margin-left: 30px;
+}
+
+.login_button{
+        background-color: black;
+        font-weight: bold;
+        border-radius: 30px;
+        outline: none;
+        width:100% ;
+        margin-right: 30px;
+        
+}
+.login_button:hover{
+    background-color: black;
+}
+
+
+.english_button{
+    background-color: transparent;
+    border-radius: 30px;
+    outline: none;
+    width:100% ;
+    margin-right: 30px;
+    border-color: transparent;
+    color: black;
+    font-weight: bold;
+}
+
+
+.logo{
+    width: 4%;
+    
+}
+
+.brand{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+    
+}
+
+.globe{
+    width: auto;
+    margin-bottom: 5px;
+}
