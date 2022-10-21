@@ -3,13 +3,13 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import "./Navibar.css"
+import "./Header.css"
 
 
 
 
 
-function Navibar() {
+function Header() {
   return (
     <Navbar bg="light" expand="lg">
       <Container fluid>
@@ -47,4 +47,4 @@ function Navibar() {
   );
 }
 
-export default Navibar;
+export default Header;

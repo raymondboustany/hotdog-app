@@ -1,15 +1,17 @@
-import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"
-import Navibar from './Navibar';
+import Header from "./Components/Header";
+import Body from "./Components/BodyComponents/DogCardList";
+import Footer from "./Components/Footer";
+import "./styling/App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <Navibar/>
-      </header>
-    </div>
-  );
+function App(){
+    return (
+        <div>
+            <Header />
+            <Body />
+            <Footer />
+        </div>
+    )
 }
 
 export default App;
