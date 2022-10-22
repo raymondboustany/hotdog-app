@@ -5,28 +5,26 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import "../styling/HeaderStyling/Header.css"
 
-
-
-
-
 function Header() {
   return (
     <Navbar bg="light" expand="lg">
       <Container fluid>
         <img className="logo" src='https://pngimg.com/uploads/paw/paw_PNG62.png'/>
-        <Navbar.Brand className="brand" href="#default">hotdog</Navbar.Brand>
+        <Navbar.Brand className="brand" href="#default">Hot<span className="brand span">D</span>og</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: '100px' }}
+            style={{ maxHeight: '120px' }}
             navbarScroll
+
           >
             <Nav.Link className="link_button" href="#action2">Feed</Nav.Link>
             <Nav.Link className="link_button" href="#action2">Download</Nav.Link>
             <NavDropdown  className="link_button" title="Safety" id="navbarScrollingDropdown">
               <NavDropdown.Item className="link_button" href="#action3">Privacy Policy</NavDropdown.Item>
               <NavDropdown.Item className="link_button" href="#action4">Safety</NavDropdown.Item>
+              <NavDropdown.Item className="link_button" href="#action5">Terms of Service</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown  className="link_button" title="Subscription" id="navbarScrollingDropdown">
               <NavDropdown.Item className="link_button" href="#action3">Standard</NavDropdown.Item>
@@ -49,15 +47,15 @@ function Header() {
   );
 }
 
-function DarkMode(){
-  const toggle= document.getElementById('Darkmode-toggle');
-  if(toggle.className === 'Mode Light'){
-    toggle.className = 'Mode Dark';
-    toggle.checked = true;
-    document.body.style.backgroundColor = 'black';
-    document.body.style.color = 'white';
-  }
-  return true;
-}
+// function DarkMode(){
+//   const toggle= document.getElementById('Darkmode-toggle');
+//   if(toggle.className === 'Mode Light'){
+//     toggle.className = 'Mode Dark';
+//     toggle.checked = true;
+//     document.body.style.backgroundColor = 'black';
+//     document.body.style.color = 'white';
+//   }
+//   return true;
+// }
 
 export default Header;

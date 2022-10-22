@@ -6,20 +6,18 @@
 
 .link_button{
     color: black;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .login_button{
         background-color: black;
+        border: none;
         font-weight: bold;
         border-radius: 30px;
         outline: none;
         width:100% ;
         margin-right: 30px;
         
-}
-.login_button:hover{
-    background-color: black;
 }
 
 
@@ -36,7 +34,7 @@
 
 
 .logo{
-    width: 4%;
+    width: 40px;
     
 }
 
@@ -46,12 +44,16 @@
     margin-left: 10px;
     
 }
+.brand.span{
+    color: #920303;
+}
 
 .globe{
-    width: auto;
+    width: 20px;
     margin-bottom: 5px;
 }
 .link-button::hover{
     font:bold ;
+    border: 5px solid black;
     font-size: 20px ;
 }
