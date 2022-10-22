@@ -1,7 +1,54 @@
+.body-section {
+    background-color: #f1f1f1;
+}
+.title-and-search-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #f1f1f1;
+}
+.title{
+    padding-right:10px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.search-bar{
+    display: block;
+    height: 40px;
+    margin-top: 25px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid black;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
 .cards-list {
     padding: 20px;
     display: flex;
     flex-wrap: nowrap;
     gap: 20px;
     overflow-x: auto;
+}
+.cards-list::-webkit-scrollbar {
+    height: 5px;
+}
+.cards-list::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+.cards-list::-webkit-scrollbar-track-piece{
+    display: none;
+}
+.cards-list::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background: #888;
+}
+.cards-list::-webkit-scrollbar-thumb::hover{
+    background: #888;
 }
