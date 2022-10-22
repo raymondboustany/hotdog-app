@@ -1,5 +1,4 @@
 import Card from "./Card";
-import "../Data/DogBreedData.json";
 import "../../styling/BodyStyling/DogCardList.css";
 import DogBreedData from "../../Data/DogBreedData.json";
 export default function Body(){
