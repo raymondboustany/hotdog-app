@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Affenpinscher",
+        "img": "https://images.dog.ceo/breeds/affenpinscher/n02110627_10047.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Afghan Hound",
+        "img": "https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Airedale Terrier",
+        "img": "https://images.dog.ceo/breeds/airedale/n02096051_1002.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Akita",
+        "img": "https://images.dog.ceo/breeds/akita/512px-Akita_inu.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "Alaskan Malamute",
+        "img": "https://images.dog.ceo/breeds/malamute/n02110063_10026.jpg"
+    },
+    {
+        "id": 6,
+        "name": "American Bulldog",
+        "img": "https://images.dog.ceo/breeds/bulldog-american/n02096585_1003.jpg"
+    },
+    {
+        "id": 7,
+        "name": "American Eskimo Dog",
+        "img": "https://images.dog.ceo/breeds/eskimo/n02109961_1003.jpg"
+    }
+]
