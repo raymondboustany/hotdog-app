@@ -10,9 +10,13 @@ export default function Body(){
         )
     })
     return (
+        <div>
+            <h1>Meet The Breeds</h1>
+            <input type="text" placeholder="Search for a dog breed" className="search-bar"/>
             <section className="cards-list">
-                <input type="text" placeholder="Search for a dog breed" className="search-bar"/>
                 {dogCards}
             </section>
+        </div>
+            
     )
 }
