@@ -1,0 +1,31 @@
+.review{
+    padding: 10px;
+    width:220px;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-image: url("../../images/DogPawHeart.png");
+    background-repeat: no-repeat;
+}
+.review-img{
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.review-container{
+    display: block;
+    gap: 10px;
+}
+.review-name{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.review-text{
+    margin: 50px 0px 0px 50px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

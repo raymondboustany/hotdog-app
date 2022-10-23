@@ -1,12 +1,12 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import Header from "./Components/Header";
-import Body from "./Components/BodyComponents/DogCardList";
+import Body from "./Components/Body.js";
 import Footer from "./Components/Footer";
 import "./styling/App.css";
 
 function App(){
     return (
-        <div>
+        <div >
             <Header />
             <Body />
             <Footer />
