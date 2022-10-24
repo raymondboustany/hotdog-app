@@ -12,7 +12,7 @@ export default function ReviewList(){
         )})
     return (
         <div className="review-list">
-            <h1 className="review-list-title">Reviews</h1>
+            <h1 className="review-list-title">What our customers say about us <span>!</span></h1>
             <div className="review-list-container">
                 {reviews}
             </div>

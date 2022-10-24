@@ -9,7 +9,7 @@ export default function Footer(){
                     <div className="col-sm-4 col-md-3 item">
                         <h3 className="title" >Services</h3>
                         <ul>
-                            <li><a href="#">Dog Breeds</a></li>
+                            <li><a href="#meetBreeds">Dog Breeds</a></li>
                             <li><a href="#">Subscription</a></li>
                             <li><a href="#">Download</a></li>
                         </ul>
@@ -31,7 +31,8 @@ export default function Footer(){
                         </ul>
                     </div>
                     <div className="col-lg-3 item social">
-                        <a href="#"><i className="icon ion-social-facebook"></i></a><a href="#"><i className="icon ion-social-twitter"></i></a>
+                        <a href="#"><i className="icon ion-social-facebook"></i></a>
+                        <a href="#"><i className="icon ion-social-twitter"></i></a>
                         <a href="#"><i className="icon ion-social-snapchat"></i></a>
                         <a href="#"><i className="icon ion-social-instagram"></i></a>
                         <p className="copyright">HotDog © 2023</p>

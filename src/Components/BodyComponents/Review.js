@@ -3,7 +3,10 @@ export default function Review(props){
     return (
         <div className="review">
             <div className="review-container">
-                <h1 className="review-name">{props.profile.name}</h1>
+                    <div className="review-title-container">
+                    <h1 className="review-name">{props.profile.name}</h1>
+                    <h1 className="hyphens">''</h1>
+                </div>
                 <div id="heart-wrapper">
                     <div id="heart-container">
                         <p className="review-text">{props.testimony.text}</p>
