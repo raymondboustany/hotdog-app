@@ -33,7 +33,6 @@
 }
 #heart-container::before{
     content: "";
-    border: 1px solid black;
         float: left;
         height: 100%;
         width: 50%;
@@ -44,7 +43,6 @@
         float: right;
         height: 100%;
         width: 50%;
-        border: 1px solid black;
         shape-outside:url("../../images/HeartCutOutRight.png");
 ;
 }
