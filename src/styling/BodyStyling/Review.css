@@ -1,0 +1,89 @@
+.review{
+    display: block;
+    width:49vw;
+    height: 385px;
+    border: 1px solid grey;
+    padding: 0.2vh 2vw 2vh 2vw;
+    box-shadow: 1px 1px 5px grey;
+}
+.review-container{
+    margin:auto;
+    width: 49vw;
+    height:220px;
+    display: block;
+    gap: 10px;
+}
+.review-title-container{
+    display: flex;
+    flex-direction: row;
+    width:46vw;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.review-name{
+    width: 43vw;
+    padding-bottom:5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid grey;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.hyphens{
+    font-size:50px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: fit-content;
+    color:grey;
+    opacity:0.8;
+}
+#heart-wrapper{
+    height: 300px;
+    position: relative;
+    width: 49vw;
+}
+#heart-container{
+    background-image: url("../../images/DogPawHeart.gif");
+    background-size: 840px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 49vw;
+    color: rgb(120, 13, 243);
+    position: relative;
+    margin: 0;
+}
+#heart-container::before{
+    content: "";
+        float: left;
+        height: 100%;
+        width: 49%;
+        shape-outside: url("../../images/HeartCutOutLeft.png");
+}
+.review-text::before{
+    content: "";
+        float: right;
+        height: 100%;
+        width: 50%;
+        shape-outside:url("../../images/HeartCutOutRight.png");
+;
+}
+.review-text{
+    font-size: 17px;
+    font-style: italic;
+    width: 100%;
+    height: 100%;
+    line-height: 1.25;
+    padding: 0;
+    text-align: center;
+    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);
+}
+
+.review-img{
+    display: none;
+    float:right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}

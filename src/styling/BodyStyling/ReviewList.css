@@ -1,0 +1,26 @@
+.review-list{
+    background-color: rgba(232, 232, 252, 0.329);
+    padding: 10px;
+    
+}
+.review-list-title{
+    text-align: justify;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+span{
+    font-size: 36px;
+    color:red;
+}
+.review-list-container{
+    overflow-x: scroll;
+    overflow-y: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.review-list-container::-webkit-scrollbar {
+    display: none;
+}

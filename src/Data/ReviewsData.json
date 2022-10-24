@@ -1,0 +1,52 @@
+[
+    {
+        "id": "1",
+        "profile": {
+            "name": "John",
+            "picture": "../images/logo192.png"
+        },
+        "testimony":{
+            "text": "Covid hit us really hard last year and Lucy had grown quite antisocial, but thanks to HotDog we managed to find her a partner. Lucy is now the proud mother of 6 and her partner has been comming around a lot. She seems very happy!"
+        }
+    },
+    {
+        "id": "2",
+        "profile": {
+            "name": "Jane",
+            "picture": "../images/logo192.png"
+        },
+        "testimony":{
+            "text": "My boy max is very energetic,but also agressive so we don't really like to take him to crowded places. On the other hand, small dates wih another dog has been fruitfull. I also think my boy has found the one."
+        }
+    },
+    {
+        "id": "3",
+        "profile": {
+            "name": "Jack",
+            "picture": "../images/logo192.png"
+        },
+        "testimony":{
+            "text": "I have a very shy dog, and I was afraid that he would never find a partner. But thanks to HotDog, he has found a partner and they are now inseparable. I am very happy for them."
+        }
+    },
+    {
+        "id": "4",
+        "profile":{
+            "name": "Joseph",
+            "picture": "../images/logo192.png"
+        },
+        "testimony":{
+            "text":"I've been using this service as a way to let my dog meet new friends, not really lovers. I'm surprised that it's gone really well Prince has met Rover, Stella and Ruffles. We're taling them to this park that was recommended and they're having a lot of fun."
+        }
+    },
+    {
+        "id": "5",
+        "profile":{
+            "name": "Joseph",
+            "picture": "../images/logo192.png"
+        },
+        "testimony":{
+            "text":"While my Dog found her match on this app, I also got the chance to meet the owner. My Darcy loves Eileen as much as she loves her dog Ruffus. And don't tell Eileen but I really like her too!"
+        }
+    }
+]

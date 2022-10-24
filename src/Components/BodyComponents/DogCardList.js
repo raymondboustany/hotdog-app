@@ -10,7 +10,7 @@ export default function DogCardList(){
     //     )
     // })
     return (
-        <div className="body-section">
+        <div id="meetBreeds" className="body-section">
             <div className="title-and-search-bar">
                 <h1 className="title">Meet The Breeds</h1>
                 <input type="text" placeholder="Breed Name" className="search-bar"/>
