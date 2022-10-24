@@ -21,15 +21,14 @@
 }
 
 
-.english_button{
+.language_button{
     background-color: transparent;
     border-radius: 30px;
     outline: none;
-    width:40% ;
+    width:auto ;
     margin-right: 0px;
     border-color: transparent;
     color: black;
-    font-weight: bold;
 }
 
 
