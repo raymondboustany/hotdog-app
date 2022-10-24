@@ -13,21 +13,20 @@ export default function Carousel(){
                 modules={[Navigation, EffectFade]}
                 navigation
                 effect={'fade'}
-                speed={800}
+                speed={100}
                 slidePerView={1}
                 loop
                 className="myswiper"
             >
-
-                <SwiperSlide className="swiper-slide">
-                    <img src="Downloads/dog1.jpg" alt="" />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                    <img src="Downloads/dog2.jpg" alt="" />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                    <img src="Downloads/dog3.jpg" alt="" />
-                </SwiperSlide>
+                    <SwiperSlide className="swiper-slide">
+                        <img src="images/cute-dog-image-that-gaelle-likes.jpeg" alt="1" />
+                    </SwiperSlide>
+                    <SwiperSlide className="swiper-slide">
+                        <img src="images/dog-ass-heart.jpeg" alt="2" />
+                    </SwiperSlide>
+                    <SwiperSlide className="swiper-slide">
+                        <img src="images/golden-retriever-lick-funny.jpeg" alt="3" />
+                    </SwiperSlide>
             </Swiper>
         </div>
     )

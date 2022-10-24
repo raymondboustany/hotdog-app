@@ -2,13 +2,13 @@ import Card from "./Card";
 import "../../styling/BodyStyling/DogCardList.css";
 import DogBreedData from "../../Data/DogBreedData.json";
 export default function DogCardList(){
-    // const dogCards = DogBreedData.map(dogBreed => {return(
-    //     <Card
-    //      key={dogBreed.id} 
-    //      {...dogBreed}
-    //      />
-    //     )
-    // })
+    const dogCards = DogBreedData.map(dogBreed => {return(
+        <Card
+         key={dogBreed.id} 
+         {...dogBreed}
+         />
+        )
+    })
     return (
         <div id="meetBreeds" className="body-section">
             <div className="title-and-search-bar">
@@ -16,7 +16,7 @@ export default function DogCardList(){
                 <input type="text" placeholder="Breed Name" className="search-bar"/>
             </div>
             <section className="cards-list">
-                {/* {dogCards} */}
+                {dogCards}
             </section>
         </div>
             
