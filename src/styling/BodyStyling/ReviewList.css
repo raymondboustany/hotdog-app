@@ -1,16 +1,22 @@
 .review-list{
     background-color: aliceblue;
     padding: 10px;
+    overflow: hidden;
+    
 }
 .review-list-title{
     font-size: 30px;
     font-weight: bold;
     margin-left: 10px;
     margin-top: 20px;
-    margin-bottom: 20px;
 }
 .review-list-container{
+    overflow-x: scroll;
     display: flex;
     flex-direction: row;
     gap: 10px;
+}
+.review-list-container::-webkit-scrollbar {
+    display: none;
+    transition-duration: 0.5s;
 }

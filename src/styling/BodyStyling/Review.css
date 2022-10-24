@@ -1,20 +1,12 @@
 .review{
-    padding: 10px;
-    width:220px;
-    height: 200px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    background-image: url("../../images/DogPawHeart.png");
-    background-repeat: no-repeat;
-}
-.review-img{
-    float: right;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 10px;
+    display: block;
+    width:100vw;
+    height: 300px;
+    padding-left: 5vw;
 }
 .review-container{
+    width: 100vw;
+    height:220px;
     display: block;
     gap: 10px;
 }
@@ -23,9 +15,54 @@
     font-weight: bold;
     margin-bottom: 5px;
 }
+#heart-wrapper{
+    height: 300px;
+    position: relative;
+    width: 100vw;
+}
+#heart-container{
+    background-image: url("../../images/DogPawHeart.gif");
+    background-size: 840px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100vw;
+    color: rgb(120, 13, 243);
+    position: relative;
+    margin: 0;
+}
+#heart-container::before{
+    content: "";
+    border: 1px solid black;
+        float: left;
+        height: 100%;
+        width: 50%;
+        shape-outside: url("../../images/HeartCutOutLeft.png");
+}
+.review-text::before{
+    content: "";
+        float: right;
+        height: 100%;
+        width: 50%;
+        border: 1px solid black;
+        shape-outside:url("../../images/HeartCutOutRight.png");
+;
+}
 .review-text{
-    margin: 50px 0px 0px 50px;
-    font-size: 10px;
-    font-weight: bold;
-    margin-bottom: 10px;
+    font-size: 17px;
+    font-style: italic;
+    width: 100%;
+    height: 100%;
+    line-height: 1.25;
+    padding: 0;
+    text-align: justify;
+    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);
+}
+
+.review-img{
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
 }
