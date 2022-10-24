@@ -50,23 +50,7 @@
     height: 100%;
     width: 49vw;
     color: rgb(120, 13, 243);
-    position: relative;
     margin: 0;
-}
-#heart-container::before{
-    content: "";
-        float: left;
-        height: 100%;
-        width: 49%;
-        shape-outside: url("../../images/HeartCutOutLeft.png");
-}
-.review-text::before{
-    content: "";
-        float: right;
-        height: 100%;
-        width: 50%;
-        shape-outside:url("../../images/HeartCutOutRight.png");
-;
 }
 .review-text{
     font-size: 17px;
