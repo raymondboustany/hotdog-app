@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+#The project was moved to another repository. Please go check : https://github.com/RamiKassouf/hotdog-application
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
